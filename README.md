@@ -65,7 +65,7 @@ The owner (whoever created the portfolio) cannot be removed.
 
 - **Backups.** Settings → *Download a backup* saves everything in one file. Do it at month-end.
 - **Forgotten passwords.** Password-reset emails need an email sender. Until you set one up (Supabase → Authentication → Emails → SMTP settings, for example with a Gmail app password), the owner can open Supabase → Authentication → Users, delete that person's login, and invite them again. Their past work stays in the data.
-- **Updating the app.** After changing any file, raise the number in the first line of `sw.js` (`atoll-cellar-v1` → `atoll-cellar-v2`) so phones pick up the new version.
+- **Updating the app.** Push the change to GitHub. Phones and computers load the new version the next time they open the app while online. If you change `sw.js` itself, raise the number in its `CACHE` line (`atoll-cellar-v3` → `atoll-cellar-v4`).
 - **POS codes.** Each wine can carry its own bottle and glass item numbers from your POS. Daily sales imports match on those.
 
 ## Testing locally
