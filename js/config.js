@@ -6,6 +6,6 @@
    Never put the secret key here.
    Leave them empty to run the app on one device only. */
 window.ATOLL_CONFIG = {
-  supabaseUrl: '',
-  supabaseAnonKey: '',
+  supabaseUrl: 'https://kaqkrjmlfqqtcgkmephk.supabase.co',
+  supabaseAnonKey: 'sb_publishable_Xim2GCRlHeSA6kHdwu3Anw_lbbhgXg1',
 };
